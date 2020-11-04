@@ -1,0 +1,4 @@
+CREATE TABLE `nw202003`.`clients` ( `clientid` BIGINT(15) NULL AUTO_INCREMENT , `clientname` VARCHAR(128) NOT NULL , `clientgender` CHAR(5) NOT NULL , `clientphone1` VARCHAR(255) NOT NULL , `clientphone2` VARCHAR(255) NOT NULL , `clientemail` VARCHAR(255) NOT NULL , `clientidnumber` VARCHAR(255) NOT NULL , `clientbio` VARCHAR(5000) NOT NULL , `clientstatus` CHAR(5) NOT NULL , `clientdatecrt` DATETIME NOT NULL , `clientusercreates` BIGINT(10) NOT NULL , PRIMARY KEY (`clientid`)) ENGINE = InnoDB;
+
+
+INSERT INTO `clients` (`clientid`, `clientname`, `clientgender`, `clientphone1`, `clientphone2`, `clientemail`, `clientidnumber`, `clientbio`, `clientstatus`, `clientdatecrt`, `clientusercreates`) VALUES (NULL, 'Carlos Ramon Discua Ortiz', 'M', '99999999', '99999999', 'discuacarlos17@gmail.com', '95481214', 'Ingeniero', 'bueno', '27/10/2020', '1')
