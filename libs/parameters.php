@@ -12,9 +12,9 @@
  *
  * @link http://url.com
  */
-$server = "127.0.0.1";
-$user = "konekochan";
-$pswd = "sup3rGat0";
+$server = "localhost";
+$user = "root";
+$pswd = "";
 $database = "nw202003";
 $port = "3306";
 
